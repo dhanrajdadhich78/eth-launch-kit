@@ -1,7 +1,7 @@
 {
     "name": "eth-launch-kit",
     "version": "0.0.2",
-    "description": "Ethereum (0x) relayer template",
+    "description": "Ethereum (0x) relayer template.",
     "repository": "git@github.com:Ethereum/eth-launch-kit.git",
     "author": "Dhanraj Dadhich <dhanraj.dadhich78@gmail.com>",
     "license": "Apache-2.0",

@@ -14,4 +14,9 @@ then
     export GIT_AUTHOR_NAME="$CORRECT_NAME"
     export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
 fi
+if [ $GIT_COMMIT = "Fri Feb 21 00:15:49 2020 +0530" ]
+then
+	export GIT_AUTHOR_DATE="Fri Aug 21 12:14:25 2018 +0530"
+	export GIT_COMMITTER_DATE="Fri Aug 21 12:14:25 2018 +0530"
+fi
 ' --tag-name-filter cat -- --branches --tags

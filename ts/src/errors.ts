@@ -1,3 +1,4 @@
+
 // tslint:disable:max-classes-per-file
 export abstract class RelayerBaseError extends Error {
     public abstract statusCode: number;

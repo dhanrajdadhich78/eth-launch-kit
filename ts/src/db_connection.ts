@@ -4,7 +4,7 @@ import { Connection, createConnection } from 'typeorm';
 let connectionIfExists: Connection | undefined;
 
 /**
- * Returns the DB connnection
+ * Returns the DB connnection if exist.
  */
 export function getDBConnection(): Connection {
     if (_.isUndefined(connectionIfExists)) {

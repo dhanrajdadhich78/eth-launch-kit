@@ -4,6 +4,7 @@ const json_schemas_1 = require('@0x/json-schemas');
 const _ = require('lodash');
 const errors_1 = require('./errors');
 const schemaValidator = new json_schemas_1.SchemaValidator();
+
 exports.utils = {
     log: (...args) => {
         // tslint:disable-next-line:no-console

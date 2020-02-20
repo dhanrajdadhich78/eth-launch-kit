@@ -3,6 +3,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const _ = require('lodash');
 const config_1 = require('../config');
 const errors_1 = require('../errors');
+
 /**
  * Parses URL params and stores them on the request object
  */

@@ -12,6 +12,7 @@ import {
     TAKER_FEE_ZRX_UNIT_AMOUNT,
     WHITELISTED_TOKENS,
 } from './config';
+
 import { DEFAULT_PAGE, DEFAULT_PER_PAGE, NULL_ADDRESS, ZRX_DECIMALS } from './constants';
 import { NotFoundError, ValidationError, ValidationErrorCodes } from './errors';
 import { OrderBook } from './orderbook';

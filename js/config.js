@@ -16,6 +16,7 @@ var EnvVarType;
     EnvVarType[(EnvVarType['UnitAmount'] = 3)] = 'UnitAmount';
     EnvVarType[(EnvVarType['Url'] = 4)] = 'Url';
 })(EnvVarType || (EnvVarType = {}));
+
 // Whitelisted token addresses. Set to a '*' instead of an array to allow all tokens.
 exports.WHITELISTED_TOKENS = [
     '0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa',

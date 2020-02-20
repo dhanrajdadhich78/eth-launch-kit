@@ -25,6 +25,7 @@ class OrderBook {
             return { metaData: {}, order: deserializedOrder };
         }
     }
+    
     static async getAssetPairsAsync(page, perPage, assetDataA, assetDataB) {
         const connection = db_connection_1.getDBConnection();
         const signedOrderModels = await connection.manager.find(SignedOrderModel_1.SignedOrderModel);

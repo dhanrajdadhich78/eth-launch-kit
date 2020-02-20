@@ -7,6 +7,7 @@ import {
     SignedOrder,
     Web3ProviderEngine,
 } from '0x.js';
+
 import { APIOrder, OrderbookResponse, PaginatedCollection } from '@0x/connect';
 import { OrderState, OrderWatcher } from '@0x/order-watcher';
 import { Asset, AssetPairsItem, AssetProxyId, OrdersRequestOpts } from '@0x/types';

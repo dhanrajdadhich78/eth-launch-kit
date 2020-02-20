@@ -1,5 +1,6 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
+
 // tslint:disable:max-classes-per-file
 class RelayerBaseError extends Error {
     constructor() {

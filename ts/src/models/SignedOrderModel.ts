@@ -1,4 +1,5 @@
 export class SignedOrderModel {
+    
     public hash?: string;
     public senderAddress?: string;
     public makerAddress?: string;

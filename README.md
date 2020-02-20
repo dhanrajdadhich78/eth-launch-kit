@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ethereum (0x) relayer for your community token which seemlessly create a marketplace (in-game) for digital assets. This also support the trading of any ERC-20 or ERC-721 asset
+Ethereum (0x) relayer for your community token which seemlessly create a marketplace (in-game) for digital assets. This also support the trading of any ERC-20 or ERC-721 assets.
 
 ## Multi Script Development
 

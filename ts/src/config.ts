@@ -15,6 +15,7 @@ enum EnvVarType {
     UnitAmount,
     Url,
 }
+
 // Whitelisted token addresses. Set to a '*' instead of an array to allow all tokens.
 export const WHITELISTED_TOKENS: string[] | '*' = [
     '0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa', // ZRX on Kovan

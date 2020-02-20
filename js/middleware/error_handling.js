@@ -2,6 +2,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 const HttpStatus = require('http-status-codes');
 const errors_1 = require('../errors');
+
 /**
  * Catches errors thrown by our code and serialies them
  */

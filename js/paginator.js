@@ -1,5 +1,6 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
+
 exports.paginate = (collection, page, perPage) => {
     const paginatedCollection = {
         total: collection.length,

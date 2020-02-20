@@ -3,6 +3,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 const _ = require('lodash');
 const typeorm_1 = require('typeorm');
 let connectionIfExists;
+
 /**
  * Returns the DB connnection
  */
