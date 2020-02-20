@@ -1,9 +1,9 @@
 {
-    "name": "0x-launch-kit",
+    "name": "eth-launch-kit",
     "version": "0.0.2",
-    "description": "Template 0x relayer",
-    "repository": "git@github.com:0xProject/0x-launch-kit.git",
-    "author": "Leonid Logvinov <logvinov.leon@gmail.com>",
+    "description": "Ethereum (0x) relayer template",
+    "repository": "git@github.com:Ethereum/eth-launch-kit.git",
+    "author": "Dhanraj Dadhich <dhanraj.dadhich78@gmail.com>",
     "license": "Apache-2.0",
     "scripts": {
         "prettier": "yarn prettier:js && yarn prettier:ts",
